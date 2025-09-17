@@ -20,7 +20,7 @@ TARGET_TABLE = 'order_payments'
 SNOWFLAKE_STAGE = 'PIPELINE_STAGE'
 SNOWFLAKE_DATABASE = 'DQLABS_QA'  # Replace with your database
 SNOWFLAKE_SCHEMA = 'STAGING'     # Replace with your schema
-MAX_RETRIES = 3
+MAX_RETRIES = 1
 RETRY_DELAY = 10  # seconds
 
 def get_snowflake_connection():
