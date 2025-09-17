@@ -268,7 +268,7 @@ with DAG(
         python_callable=copy_into_target_table
     )
 
-    check_query >> extract_data >> upload_stage >> ensure_target >> copy_data
+    check_query >> extract_data >> upload_stage >> ensure_target >> copy_datak
 
 
 
