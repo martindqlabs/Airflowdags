@@ -7,7 +7,7 @@ from airflow.exceptions import AirflowFailException
 from snowflake.connector.errors import DatabaseError, OperationalError
 from datetime import datetime, timedelta
 import time
-import pandas as pddd
+import pandas as pd
 import tempfile
 import os
 import json
