@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
-from airflow.hooks.mssql_hook import MsSqlHookkkk
+from airflow.hooks.mssql_hook import MsSqlHook
 from airflow.providers.snowflake.hooks.snowflake import SnowflakeHook
 from airflow.exceptions import AirflowFailException
 from snowflake.connector.errors import DatabaseError, OperationalError
