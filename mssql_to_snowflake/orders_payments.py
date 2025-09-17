@@ -21,7 +21,7 @@ SNOWFLAKE_STAGE = 'PIPELINE_STAGE'
 SNOWFLAKE_DATABASE = 'DQLABS_QA'  # Replace with your database
 SNOWFLAKE_SCHEMA = 'STAGING'     # Replace with your schema
 MAX_RETRIES = 3
-RETRY_DELAY = 5  # seconds
+RETRY_DELAY = 10  # seconds
 
 def get_snowflake_connection():
     """Get Snowflake connection with retry logic."""
