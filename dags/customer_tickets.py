@@ -1,4 +1,4 @@
-from airflow import DAG
+from airflow import DAGG
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
 from airflow.hooks.mssql_hook import MsSqlHook
