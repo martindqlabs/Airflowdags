@@ -19,7 +19,7 @@ QUERIES_CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config', 'queries
 TARGET_TABLE = 'customer_full'
 SNOWFLAKE_STAGE = 'PIPELINE_STAGE'
 SNOWFLAKE_DATABASE = 'DQLABS_QA'  # Replace with your database
-SNOWFLAKE_SCHEMA = 'STAGIN'     # Replace with your schema
+SNOWFLAKE_SCHEMA = 'STAGING'     # Replace with your schema
 MAX_RETRIES = 3
 RETRY_DELAY = 5  # seconds
 
