@@ -137,4 +137,4 @@ with DAG(
         python_callable=extract_and_insert_data
     )
 
-    check_query >> ensure_table >> transfer_data
+    check_query >> ensure_table >> transfer_data ->> TEST
